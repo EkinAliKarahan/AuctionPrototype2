@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
                                     while ((c = getchar()) != '\n' && c != EOF)
                                    ;
                                    continue;
-                            }
+                                                        }
                             
                             if (artirma.teklif < 249.9) {
                             printf("\n Minimum teklif degeri 250.000 Dolardir\n");
