@@ -24,6 +24,12 @@ int main(int argc, char *argv[]) {
                                    ;
                                    continue;
                             }
+                            
+                            if (artirma.teklif < 249.9) {
+                            printf("\n Minimum teklif degeri 250.000 Dolardir\n");
+                            continue;                            
+							}
+                            
                              
         if (artirma.teklif < artirma.oncekiTeklif) {
             printf("\nKazanan %.1f Bin Dolar'lik teklifin sahibi oluyor\n", artirma.oncekiTeklif);
@@ -35,4 +41,3 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
-
