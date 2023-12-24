@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Ekin Ali Karahan 1230505045 || Osman Yasin Zeytun 1230505030
+
+
 typedef struct {
     float oncekiTeklif;
     float teklif;
@@ -24,6 +27,7 @@ int main(int argc, char *argv[]) {
                                    ;
                                    continue;
                                                         }
+	            //Yukarıdaki kod bölümü kullanıcının sayı yerine harf girince uyarılmasını sağlar
                             
                             if (artirma.teklif < 249.9) {
                             printf("\n Minimum teklif degeri 250.000 Dolardir\n");
